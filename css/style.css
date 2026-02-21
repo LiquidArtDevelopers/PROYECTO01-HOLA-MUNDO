@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  min-height: 100dvh;
+  background: linear-gradient(135deg, #ff0033 0%, #6a00ff 100%);
+}
+
+h1{
+  color:rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+
+  @media only screen and (min-width: 800px){
+    font-size: 4rem;
+  }
+  
+  @media only screen and (min-width: 1200px){
+    font-size: 6rem;
+  }
+}
+
+.imgPortada{
+  width: 50%;
+  max-width: 500px;
+}
+
+
+
+
