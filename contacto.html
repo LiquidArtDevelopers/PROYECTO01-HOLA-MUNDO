@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Studio Nova</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Studio Nova</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir o cerrar menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="menu-principal">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+        <a class="nav-link active" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Contacto</p>
+        <h1>Cuentanos tu proyecto y armamos algo distinto.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      </div>
+      <img src="https://dummyimage.com/900x620/0c4a6e/f0f9ff&text=Hablemos" alt="Imagen dummy de contacto">
+    </section>
+
+    <section class="container contact-grid">
+      <article class="content-block">
+        <h2>Datos de contacto</h2>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:hola@studionova.com">hola@studionova.com</a></li>
+          <li>Telefono: <a href="tel:+34900111222">+34 900 111 222</a></li>
+          <li>Direccion: Lorem 123, Ipsum City</li>
+        </ul>
+      </article>
+
+      <article class="content-block">
+        <h2>Formulario</h2>
+        <form action="#" method="post">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Tu nombre">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="tu@email.com">
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+
+          <button class="btn" type="submit">Enviar mensaje</button>
+        </form>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>2026 Studio Nova. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

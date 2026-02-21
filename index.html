@@ -1,16 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Sushi</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/sushi.svg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio | Studio Nova</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Hola Sushi</h1>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Studio Nova</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir o cerrar menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="menu-principal">
+        <a class="nav-link active" href="index.html">Inicio</a>
+        <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+        <a class="nav-link" href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
 
-    <img class="imgPortada" src="img/sushi.svg" alt="sushi Donostia" title="sushi Donostia">
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Creative Studio</p>
+        <h1>Diseno digital con ideas simples y resultados claros.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+        <a class="btn" href="contacto.html">Empezar ahora</a>
+      </div>
+      <img src="https://dummyimage.com/900x620/0f172a/f8fafc&text=Studio+Nova" alt="Imagen dummy principal del estudio">
+    </section>
 
+    <section class="grid-info container">
+      <article class="card">
+        <img src="https://dummyimage.com/640x400/14b8a6/0b1324&text=Branding" alt="Imagen dummy de branding">
+        <h2>Branding</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet.</p>
+      </article>
+      <article class="card">
+        <img src="https://dummyimage.com/640x400/f97316/0b1324&text=UX+UI" alt="Imagen dummy de UX UI">
+        <h2>UX & UI</h2>
+        <p>Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor.</p>
+      </article>
+      <article class="card">
+        <img src="https://dummyimage.com/640x400/eab308/0b1324&text=Web" alt="Imagen dummy de desarrollo web">
+        <h2>Web</h2>
+        <p>Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum.</p>
+      </article>
+    </section>
+
+    <section class="catalog container">
+      <div class="catalog-head">
+        <p class="eyebrow">Servicios</p>
+        <h2>Explora nuestras areas creativas</h2>
+      </div>
+
+      <div class="catalog-grid">
+        <a class="catalog-item" href="contacto.html">
+          <img src="https://dummyimage.com/760x460/111827/f8fafc&text=Brand+Strategy" alt="Imagen dummy de estrategia de marca">
+          <span>Brand Strategy</span>
+        </a>
+        <a class="catalog-item" href="contacto.html">
+          <img src="https://dummyimage.com/760x460/0f766e/e6fffb&text=Visual+Identity" alt="Imagen dummy de identidad visual">
+          <span>Visual Identity</span>
+        </a>
+        <a class="catalog-item" href="contacto.html">
+          <img src="https://dummyimage.com/760x460/f97316/fff7ed&text=UX+Research" alt="Imagen dummy de investigacion UX">
+          <span>UX Research</span>
+        </a>
+        <a class="catalog-item" href="contacto.html">
+          <img src="https://dummyimage.com/760x460/1d4ed8/eff6ff&text=UI+Systems" alt="Imagen dummy de sistemas de interfaz">
+          <span>UI Systems</span>
+        </a>
+        <a class="catalog-item" href="contacto.html">
+          <img src="https://dummyimage.com/760x460/475569/f8fafc&text=Web+Development" alt="Imagen dummy de desarrollo web">
+          <span>Web Development</span>
+        </a>
+        <a class="catalog-item" href="contacto.html">
+          <img src="https://dummyimage.com/760x460/ca8a04/fff7d6&text=Landing+Pages" alt="Imagen dummy de landing pages">
+          <span>Landing Pages</span>
+        </a>
+        <a class="catalog-item" href="contacto.html">
+          <img src="https://dummyimage.com/760x460/db2777/fff1f7&text=Motion+Design" alt="Imagen dummy de motion design">
+          <span>Motion Design</span>
+        </a>
+        <a class="catalog-item" href="contacto.html">
+          <img src="https://dummyimage.com/760x460/14532d/ecfdf5&text=Content+Studio" alt="Imagen dummy de contenido">
+          <span>Content Studio</span>
+        </a>
+        <a class="catalog-item" href="contacto.html">
+          <img src="https://dummyimage.com/760x460/7f1d1d/fef2f2&text=Growth+Ads" alt="Imagen dummy de growth ads">
+          <span>Growth Ads</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>2026 Studio Nova. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
